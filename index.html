@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"> 
+    <title>Gyro Car</title>
+
+  </head>
+
+
+    <body>
+    <canvas id = 'bg'></canvas>
+    
+    <main>   
+    <section>
+      <h2>Website Guide</h2>
+      <p>
+        This website showcases the physics of a two gyroscope car lift using the moving frame method.
+      </p>
+      </section>
+      <section>
+       <h3>Simulation Controls</h3>
+      <p>
+        One can control which case of the simulation one wants to display in two ways: Use the "Case" drop down button to the right of the screen, or press the right mouseclick button.
+      </p>
+      <p>
+       To the right of the screen, there is a TweakPane GUI which contains 4 folders:
+      </p>
+      <p>
+        Simulation Controls: Here can the user control different parameters of the simulation such as:
+      </p>
+
+      <p>
+        Case: This drop-down button allows the user to switch between different simulation cases.
+      </p>
+      <p>
+        simSpeed: This slider lets the user control the simulation speed.
+      </p>
+      <p>
+        cameraAngle: This allows the user to stop any automatic camera angle swithes
+      </p>
+        ExplodedView: Shows an exploded view of the assembly with frames.
+      <p>
+
+    </section>
+    <section>
+      <h3>Simulation Results</h3>
+      <p>
+        The next folder 'Simulation Results' showcases the pitch and yaw angular velocities while the simulation is running. 
+      </p>
+
+    </section>
+
+    <section>
+      <h3>Hardware Videos</h3>
+      <p>
+        'Hardware Videos' links to videos of the physical model that was built. 'Resumes/CVs' links to the resumes of the students
+      </p>
+    </section>
+
+    <section>
+      <h3>Resumes/CVs</h3>
+      <p>
+        'Resumes/CVs' links to the resumes of the students
+      </p>
+    </section>
+
+    <section>
+      <div id = "my-pane"></div> 
+    </section>
+
+    <section>
+      <h3>3D-content</h3>
+      <p>
+        The background(sun and sky) was taken from threejs.org/examples/webgl_shaders_sky.html. The road texture (Road001) was by Katsukagi. <!--  Grass   -->
+      </p>
+    </section>
+  </main>
+   
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.2/dat.gui.min.js"></script>
+    <script src="http://home.hib.no/prosjekter/dynamics/Libraries/jquery/jquery-2.1.1.min.js"></script>
+    <script src="http://home.hib.no/prosjekter/dynamics/Libraries/jqMobile/jquery.mobile-1.4.3.min.js"></script> 
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/92/three.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/92/three.min.js"></script> -->
+    <script src="https://unpkg.com/three@0.129.0/build/three.js"></script>
+    <script src="https://unpkg.com/three@0.129.0/build/three.min.js"></script>
+    <script src="https://dl.dropbox.com/s/nn9wz6aimz6vzoi/OBJLoader.js?dl=0"></script>
+    <script src="https://dl.dropbox.com/s/2821pj5wkc2b8pe/MTLLoader.js?dl=0"></script>
+    <script src="https://dl.dropbox.com/s/qxgrvxduynnst3u/OrbitControls.js?dl=0"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/20.0.0/tween.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tweakpane@3.1.9/dist/tweakpane.min.js"></script>
+
+    <script src="o2_both.js"></script>
+    <script src="o3_both.js"></script>
+    <script src="o2_M1.js"></script>
+    <script src="o3_M1.js"></script>
+    <script src="o2_M2.js"></script>
+    <script src="o3_M2.js"></script>
+    <script src="gim_both.js"></script>
+    <script src="gim_M0.js"></script>
+    <script src="gim_M1.js"></script>
+    <script src="gim_M2.js"></script>
+    <script src="R1_both.js"></script>
+    <script src="R1_M0.js"></script>
+    <script src="R1_M1.js"></script>
+    <script src="R1_M2.js"></script>
+    <script src="R1_M2.js"></script>
+    <script src="sky.js"></script>
+    <script src="main.js"></script>
+
+
+
+
+
+
+
+          
+            
+          
+  </body>
+</html>
